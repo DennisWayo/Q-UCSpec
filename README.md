@@ -1,8 +1,5 @@
 
-[![QAMP Project](https://img.shields.io/badge/QAMP-2025-blue)](https://qiskit.org/advocates)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)  
-[![GPAW](https://img.shields.io/badge/GPAW-TDDFT-green)](https://wiki.fysik.dtu.dk/gpaw/)  
-[![Qiskit](https://img.shields.io/badge/Qiskit-Quantum%20ML-purple)](https://qiskit.org/)
+[![QAMP Project](https://img.shields.io/badge/QAMP-2025-blue)](https://qiskit.org/advocates)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)  [![GPAW](https://img.shields.io/badge/GPAW-TDDFT-green)](https://wiki.fysik.dtu.dk/gpaw/)  [![Qiskit](https://img.shields.io/badge/Qiskit-Quantum%20ML-purple)](https://qiskit.org/)
 
 ## Q-UCSpec: Integrating TDDFT Spectroscopy and Quantum Machine Learning for Photonic Upconversion Materials
 
@@ -32,17 +29,21 @@ Q-UCSpec/
 
 ---
 ### ⚙️ Installation & Setup
-```bash
+```python
 # Clone Repo
 git clone https://github.com/denniswayo/Q-UCSpec.git
 cd Q-UCSpec
+
 # Create conda environment
 conda create -n q-ucspec python=3.9
 conda activate q-ucspec
+
 # Install dependencies
 conda install -c conda-forge gpaw ase scipy matplotlib
 pip install qiskit qiskit-machine-learning
-# python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready')"
+
+# Test installation
+python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready')"
 ```
 ---
 
@@ -52,10 +53,10 @@ Mentor: Dennis Wayo (@DennisWayo)
 QAMP 2025 Project: Q-UCSpec
 
 Mentees will:
-	•	Learn TDDFT workflow with GPAW + ASE.
-	•	Run simulations of photonic upconversion clusters.
-	•	Apply QML with Qiskit to spectral datasets.
-	•	Contribute code, documentation, and benchmarking analysis.
+	- Learn TDDFT workflow with GPAW + ASE.
+	- Run simulations of photonic upconversion clusters.
+	- Apply QML with Qiskit to spectral datasets.
+	- Contribute code, documentation, and benchmarking analysis.
 
 ### Acknowledgements
 	•	Qiskit Advocate Mentorship Program (QAMP) @qiskit-advocate @IBM
