@@ -48,15 +48,16 @@ python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready
 ---
 
 ### Mentorship
-
 Mentor: Dennis Wayo (@DennisWayo)
 QAMP 2025 Project: Q-UCSpec
 
+```bash
 Mentees will:
-	- Learn TDDFT workflow with GPAW + ASE.
-	- Run simulations of photonic upconversion clusters.
-	- Apply QML with Qiskit to spectral datasets.
-	- Contribute code, documentation, and benchmarking analysis.
+	•	Learn lr-TDDFT workflow with GPAW + ASE.
+	•	Run simulations of photonic upconversion clusters.
+	•	Apply QML with Qiskit to spectral datasets.
+	•	Contribute code, documentation, and benchmarking analysis.
+```
 
 ### Acknowledgements
 	•	Qiskit Advocate Mentorship Program (QAMP) @qiskit-advocate @IBM
