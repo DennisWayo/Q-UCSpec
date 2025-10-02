@@ -49,7 +49,9 @@ python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready
 
 ### Mentorship
 Mentor: Dennis Wayo (@DennisWayo)
+
 QAMP 2025 Project: Q-UCSpec
+
 Mentees: [DavidAlba2627](https://github.com/DavidAlba2627)  [keremyurtseven](https://github.com/keremyurtseven)  [Siriapps](https://github.com/Siriapps)  [Alireza1988](https://github.com/Alireza1988)  [GHOST-Q1](https://github.com/GHOST-Q1)  [DreamzUpAbove](https://github.com/DreamzUpAbove)
 
 ```bash
