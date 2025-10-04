@@ -55,8 +55,7 @@ Mentor: [Dennis Wayo](https://github.com/DennisWayo)
 
 QAMP 2025 Project: Q-UCSpec
 
-Mentees: [DavidAlba2627](https://github.com/DavidAlba2627)  [keremyurtseven](https://github.com/keremyurtseven)  [Siriapps](https://github.com/Siriapps)  [Alireza Alipour](https://github.com/Alireza1988)  [GHOST-Q1](https://github.com/GHOST-Q1)  [DreamzUpAbove](https://github.com/DreamzUpAbove)
-[Reema Alzaid](https://github.com/ReemaAlzaid) [Krishan Sharma](https://github.com/Krishan019)
+Mentees: [DavidAlba2627](https://github.com/DavidAlba2627),  [keremyurtseven](https://github.com/keremyurtseven),  [Siriapps](https://github.com/Siriapps), [Alireza Alipour](https://github.com/Alireza1988),  [GHOST-Q1](https://github.com/GHOST-Q1),  [DreamzUpAbove](https://github.com/DreamzUpAbove),[Reema Alzaid](https://github.com/ReemaAlzaid), [Krishan Sharma](https://github.com/Krishan019).
 
 ```bash
 Mentees will:
