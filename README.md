@@ -19,10 +19,10 @@ This project is part of the **Qiskit Advocate Mentorship Program (QAMP) 2025**.
 
 ```bash
 Q-UCSpec/
-├── simulations/        # ASE + GPAW scripts for CaF2, Ca3F:Er clusters
+├── simulations_gpaw/   # ASE + GPAW scripts for CaF2, Ca3F:Er clusters
 ├── spectra/            # TDDFT stick and broadened spectra (CSV)
 ├── features/           # Extracted spectral descriptors for ML/QML
-├── qiskit/             # Quantum ML notebooks (QSVM, EstimatorQNN)
+├── qiskit_qml/         # Quantum ML notebooks (QSVM, EstimatorQNN)
 ├── docs/               # Documentation and project notes
 └── README.md
 ```
@@ -55,7 +55,7 @@ Mentor: [Dennis Wayo](https://github.com/DennisWayo)
 
 QAMP 2025 Project: Q-UCSpec
 
-Mentees: [DavidAlba2627](https://github.com/DavidAlba2627)  [keremyurtseven](https://github.com/keremyurtseven)  [Siriapps](https://github.com/Siriapps)  [Alireza1988](https://github.com/Alireza1988)  [GHOST-Q1](https://github.com/GHOST-Q1)  [DreamzUpAbove](https://github.com/DreamzUpAbove)
+Mentees: [DavidAlba2627](https://github.com/DavidAlba2627)  [keremyurtseven](https://github.com/keremyurtseven)  [Siriapps](https://github.com/Siriapps)  [Alireza Alipour](https://github.com/Alireza1988)  [GHOST-Q1](https://github.com/GHOST-Q1)  [DreamzUpAbove](https://github.com/DreamzUpAbove)
 [Reema Alzaid](https://github.com/ReemaAlzaid) [Krishan Sharma](https://github.com/Krishan019)
 
 ```bash
