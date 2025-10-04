@@ -42,6 +42,10 @@ conda activate gpaw-tddft-legacy
 conda env create -f env-gpaw-win.yml
 conda activate gpaw-tddft-legacy
 
+## (Option C) Windows users
+conda env create -f env-gpaw-linux.yml
+conda activate gpaw-tddft-legacy
+
 # Verify installation
 python -c "import gpaw, ase, qiskit; print('YES, Environment ready!')"
 
@@ -49,6 +53,7 @@ python -c "import gpaw, ase, qiskit; print('YES, Environment ready!')"
 python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready')"
 ```
 ---
+
 
 ### Mentorship
 Mentor: [Dennis Wayo](https://github.com/DennisWayo)
