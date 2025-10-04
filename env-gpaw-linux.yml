@@ -1,0 +1,50 @@
+#conda env create -f env-gpaw-linux.yml
+#conda activate gpaw-tddft-legacy
+#python -m gpaw info
+
+name: gpaw-tddft-legacy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python + scientific stack
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - h5py
+
+  # ASE & GPAW
+  - ase>=3.25.0
+  - gpaw>=25.1.0
+  - libxc>=5.1.7
+  - fftw
+  - openblas
+  - mpi4py
+  - openmpi
+
+  # Jupyter support
+  - jupyterlab
+  - ipykernel
+
+  # Visualization & analysis
+  - py3dmol
+  - plotly
+  - pillow
+
+  # Quantum stack
+  - pip:
+      #- qiskit
+      #- qiskit-machine-learning
+      - matplotlib
+      - mendeleev
+      - pymatgen
+      - tqdm
+      - seaborn
+      - sympy
+      - uncertainties
+      - pybtex
+      - requests
+      - spglib
