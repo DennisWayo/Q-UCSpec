@@ -30,17 +30,20 @@ Q-UCSpec/
 ---
 ### ⚙️ Installation & Setup
 ```python
-# Clone Repo
-git clone https://github.com/denniswayo/Q-UCSpec.git
+# Clone the repository
+git clone https://github.com/DennisWayo/Q-UCSpec.git
 cd Q-UCSpec
 
-# Create conda environment
-conda create -n q-ucspec python=3.9
-conda activate q-ucspec
+# (Option A) macOS users
+conda env create -f env-gpaw-mac.yml
+conda activate gpaw-tddft-legacy
 
-# Install dependencies
-conda install -c conda-forge gpaw ase scipy matplotlib
-pip install qiskit qiskit-machine-learning
+# (Option B) Windows users
+conda env create -f env-gpaw-win.yml
+conda activate gpaw-tddft-legacy
+
+# Verify installation
+python -c "import gpaw, ase, qiskit; print('YES, Environment ready!')"
 
 # Test installation
 python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready')"
@@ -53,6 +56,7 @@ Mentor: [Dennis Wayo](https://github.com/DennisWayo)
 QAMP 2025 Project: Q-UCSpec
 
 Mentees: [DavidAlba2627](https://github.com/DavidAlba2627)  [keremyurtseven](https://github.com/keremyurtseven)  [Siriapps](https://github.com/Siriapps)  [Alireza1988](https://github.com/Alireza1988)  [GHOST-Q1](https://github.com/GHOST-Q1)  [DreamzUpAbove](https://github.com/DreamzUpAbove)
+[Reema Alzaid](https://github.com/ReemaAlzaid) [Krishan Sharma](https://github.com/Krishan019)
 
 ```bash
 Mentees will:
