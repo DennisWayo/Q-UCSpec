@@ -1,0 +1,89 @@
+# ======================================================
+# Q-UCSpec / GPAW + Qiskit QML Project Git Ignore File
+# ======================================================
+
+# === OS & Editor Junk ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+*.lock
+*.lnk
+
+# === IDEs ===
+.idea/
+.vscode/
+*.iml
+
+# === Python / Jupyter ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# === Simulation Outputs ===
+# GPAW / ASE
+*.gpw
+*.traj
+*.cube
+*.pckl
+*.json.bz2
+*.npz
+*.npy
+*.chgsum
+*.density
+*.occ
+*.eig
+*.err
+*.out
+*.tmp
+
+# DeepMD / TensorFlow
+*.ckpt
+*.h5
+*.pb
+*.index
+*.meta
+events.out.tfevents*
+
+# MEEP / TDDFT / FDTD
+*.hdf5
+*.dat
+*.fld
+*.mat
+*.nc
+
+# === Data Artifacts ===
+*.csv
+*.txt
+*.yaml
+*.yml
+!env-gpaw-mac.yml
+!env-gpaw-win.yml
+!requirements.txt
+
+# === Results to KEEP ===
+!docs/*.pdf               # project documentation
+!spectra/*.pdf            # spectra results
+!feature/*.csv            # QML features
+!qiskit_qml/*.ipynb       # QML notebooks
+!simulations_gpaw/*.log   # simulation logs
+!simulations_gpaw/*.xyz   # atomic structures
+!simulations_gpaw/*.ipynb # simulation notebooks
+
+# === Misc ===
+*.tar
+*.zip
+*.7z
+
+# === Git / Metadata ===
+.gitignore
+README.md
+LICENSE
